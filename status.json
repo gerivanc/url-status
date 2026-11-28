@@ -1,0 +1,974 @@
+{
+  "version": 1,
+  "generator": "url-status-monitor",
+  "generatedAt": "2026-11-28T14:45:20.786Z",
+  "durationMs": 1177,
+  "intervalMinutes": 15,
+  "zone": "gerivan.me",
+  "overall": "operational",
+  "reasons": [],
+  "points": [
+    {
+      "id": "mtv",
+      "city": "Mountain View CA, United States",
+      "cc": "us",
+      "ecs": "128.12.0.0/24"
+    },
+    {
+      "id": "dal",
+      "city": "Dallas TX, United States",
+      "cc": "us",
+      "ecs": "129.110.0.0/24"
+    },
+    {
+      "id": "nyc",
+      "city": "New York NY, United States",
+      "cc": "us",
+      "ecs": "128.122.0.0/24"
+    },
+    {
+      "id": "tor",
+      "city": "Toronto, Canada",
+      "cc": "ca",
+      "ecs": "128.100.0.0/24"
+    },
+    {
+      "id": "mex",
+      "city": "Mexico City, Mexico",
+      "cc": "mx",
+      "ecs": "132.248.0.0/24"
+    },
+    {
+      "id": "bsb",
+      "city": "Brasília, Brazil",
+      "cc": "br",
+      "ecs": "164.41.0.0/24"
+    },
+    {
+      "id": "sao",
+      "city": "São Paulo, Brazil",
+      "cc": "br",
+      "ecs": "143.107.0.0/24"
+    },
+    {
+      "id": "rio",
+      "city": "Rio de Janeiro, Brazil",
+      "cc": "br",
+      "ecs": "146.164.0.0/24"
+    },
+    {
+      "id": "scs",
+      "city": "Santa Cruz do Sul, Brazil",
+      "cc": "br",
+      "ecs": "45.171.83.0/24"
+    },
+    {
+      "id": "bue",
+      "city": "Buenos Aires, Argentina",
+      "cc": "ar",
+      "ecs": "157.92.0.0/24"
+    },
+    {
+      "id": "lon",
+      "city": "London, United Kingdom",
+      "cc": "gb",
+      "ecs": "128.40.0.0/24"
+    },
+    {
+      "id": "mad",
+      "city": "Madrid, Spain",
+      "cc": "es",
+      "ecs": "138.4.0.0/24"
+    },
+    {
+      "id": "par",
+      "city": "Paris, France",
+      "cc": "fr",
+      "ecs": "134.157.0.0/24"
+    },
+    {
+      "id": "ams",
+      "city": "Amsterdam, Netherlands",
+      "cc": "nl",
+      "ecs": "145.18.0.0/24"
+    },
+    {
+      "id": "ber",
+      "city": "Berlin, Germany",
+      "cc": "de",
+      "ecs": "141.20.0.0/24"
+    },
+    {
+      "id": "jnb",
+      "city": "Johannesburg, South Africa",
+      "cc": "za",
+      "ecs": "146.141.0.0/24"
+    },
+    {
+      "id": "del",
+      "city": "New Delhi, India",
+      "cc": "in",
+      "ecs": "14.139.0.0/24"
+    },
+    {
+      "id": "sin",
+      "city": "Singapore",
+      "cc": "sg",
+      "ecs": "137.132.0.0/24"
+    },
+    {
+      "id": "sel",
+      "city": "Seoul, South Korea",
+      "cc": "kr",
+      "ecs": "147.46.0.0/24"
+    },
+    {
+      "id": "tyo",
+      "city": "Tokyo, Japan",
+      "cc": "jp",
+      "ecs": "133.11.0.0/24"
+    },
+    {
+      "id": "syd",
+      "city": "Sydney, Australia",
+      "cc": "au",
+      "ecs": "129.78.0.0/24"
+    },
+    {
+      "id": "cf",
+      "city": "Cloudflare 1.1.1.1",
+      "cc": "globe",
+      "ecs": null
+    },
+    {
+      "id": "gg",
+      "city": "Google 8.8.8.8",
+      "cc": "globe",
+      "ecs": null
+    },
+    {
+      "id": "q9",
+      "city": "Quad9 9.9.9.9",
+      "cc": "globe",
+      "ecs": null
+    },
+    {
+      "id": "ag",
+      "city": "AdGuard DNS",
+      "cc": "globe",
+      "ecs": null
+    },
+    {
+      "id": "ali",
+      "city": "AliDNS 223.5.5.5",
+      "cc": "globe",
+      "ecs": null
+    }
+  ],
+  "checks": [
+    {
+      "id": "apex-ns",
+      "host": "gerivan.me",
+      "type": "NS",
+      "status": "operational",
+      "reasons": [],
+      "majority": [
+        "curitiba.ns.porkbun.com",
+        "fortaleza.ns.porkbun.com",
+        "maceio.ns.porkbun.com",
+        "salvador.ns.porkbun.com"
+      ],
+      "agree": 25,
+      "reach": 25,
+      "total": 26,
+      "ttl": 86400,
+      "medianMs": 201,
+      "divergent": [],
+      "unreachable": [
+        "q9"
+      ],
+      "points": {
+        "mtv": "ok",
+        "dal": "ok",
+        "nyc": "ok",
+        "tor": "ok",
+        "mex": "ok",
+        "bsb": "ok",
+        "sao": "ok",
+        "rio": "ok",
+        "scs": "ok",
+        "bue": "ok",
+        "lon": "ok",
+        "mad": "ok",
+        "par": "ok",
+        "ams": "ok",
+        "ber": "ok",
+        "jnb": "ok",
+        "del": "ok",
+        "sin": "ok",
+        "sel": "ok",
+        "tyo": "ok",
+        "syd": "ok",
+        "cf": "ok",
+        "gg": "ok",
+        "q9": "down",
+        "ag": "ok",
+        "ali": "ok"
+      }
+    },
+    {
+      "id": "apex-a",
+      "host": "gerivan.me",
+      "type": "A",
+      "status": "operational",
+      "reasons": [],
+      "majority": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153"
+      ],
+      "agree": 25,
+      "reach": 25,
+      "total": 26,
+      "ttl": 600,
+      "medianMs": 195,
+      "divergent": [],
+      "unreachable": [
+        "q9"
+      ],
+      "points": {
+        "mtv": "ok",
+        "dal": "ok",
+        "nyc": "ok",
+        "tor": "ok",
+        "mex": "ok",
+        "bsb": "ok",
+        "sao": "ok",
+        "rio": "ok",
+        "scs": "ok",
+        "bue": "ok",
+        "lon": "ok",
+        "mad": "ok",
+        "par": "ok",
+        "ams": "ok",
+        "ber": "ok",
+        "jnb": "ok",
+        "del": "ok",
+        "sin": "ok",
+        "sel": "ok",
+        "tyo": "ok",
+        "syd": "ok",
+        "cf": "ok",
+        "gg": "ok",
+        "q9": "down",
+        "ag": "ok",
+        "ali": "ok"
+      }
+    },
+    {
+      "id": "cname-dnapass",
+      "host": "dnapass.gerivan.me",
+      "type": "CNAME",
+      "status": "operational",
+      "reasons": [],
+      "majority": [
+        "gerivanc.github.io"
+      ],
+      "agree": 25,
+      "reach": 25,
+      "total": 26,
+      "ttl": 600,
+      "medianMs": 421,
+      "divergent": [],
+      "unreachable": [
+        "q9"
+      ],
+      "points": {
+        "mtv": "ok",
+        "dal": "ok",
+        "nyc": "ok",
+        "tor": "ok",
+        "mex": "ok",
+        "bsb": "ok",
+        "sao": "ok",
+        "rio": "ok",
+        "scs": "ok",
+        "bue": "ok",
+        "lon": "ok",
+        "mad": "ok",
+        "par": "ok",
+        "ams": "ok",
+        "ber": "ok",
+        "jnb": "ok",
+        "del": "ok",
+        "sin": "ok",
+        "sel": "ok",
+        "tyo": "ok",
+        "syd": "ok",
+        "cf": "ok",
+        "gg": "ok",
+        "q9": "down",
+        "ag": "ok",
+        "ali": "ok"
+      }
+    },
+    {
+      "id": "cname-entropy",
+      "host": "entropy.gerivan.me",
+      "type": "CNAME",
+      "status": "operational",
+      "reasons": [],
+      "majority": [
+        "gerivanc.github.io"
+      ],
+      "agree": 25,
+      "reach": 25,
+      "total": 26,
+      "ttl": 600,
+      "medianMs": 400,
+      "divergent": [],
+      "unreachable": [
+        "q9"
+      ],
+      "points": {
+        "mtv": "ok",
+        "dal": "ok",
+        "nyc": "ok",
+        "tor": "ok",
+        "mex": "ok",
+        "bsb": "ok",
+        "sao": "ok",
+        "rio": "ok",
+        "scs": "ok",
+        "bue": "ok",
+        "lon": "ok",
+        "mad": "ok",
+        "par": "ok",
+        "ams": "ok",
+        "ber": "ok",
+        "jnb": "ok",
+        "del": "ok",
+        "sin": "ok",
+        "sel": "ok",
+        "tyo": "ok",
+        "syd": "ok",
+        "cf": "ok",
+        "gg": "ok",
+        "q9": "down",
+        "ag": "ok",
+        "ali": "ok"
+      }
+    },
+    {
+      "id": "cname-transformers",
+      "host": "transformers.gerivan.me",
+      "type": "CNAME",
+      "status": "operational",
+      "reasons": [],
+      "majority": [
+        "gerivanc.github.io"
+      ],
+      "agree": 25,
+      "reach": 25,
+      "total": 26,
+      "ttl": 600,
+      "medianMs": 407,
+      "divergent": [],
+      "unreachable": [
+        "q9"
+      ],
+      "points": {
+        "mtv": "ok",
+        "dal": "ok",
+        "nyc": "ok",
+        "tor": "ok",
+        "mex": "ok",
+        "bsb": "ok",
+        "sao": "ok",
+        "rio": "ok",
+        "scs": "ok",
+        "bue": "ok",
+        "lon": "ok",
+        "mad": "ok",
+        "par": "ok",
+        "ams": "ok",
+        "ber": "ok",
+        "jnb": "ok",
+        "del": "ok",
+        "sin": "ok",
+        "sel": "ok",
+        "tyo": "ok",
+        "syd": "ok",
+        "cf": "ok",
+        "gg": "ok",
+        "q9": "down",
+        "ag": "ok",
+        "ali": "ok"
+      }
+    },
+    {
+      "id": "cname-xphrase",
+      "host": "xphrase.gerivan.me",
+      "type": "CNAME",
+      "status": "operational",
+      "reasons": [],
+      "majority": [
+        "gerivanc.github.io"
+      ],
+      "agree": 25,
+      "reach": 25,
+      "total": 26,
+      "ttl": 600,
+      "medianMs": 372,
+      "divergent": [],
+      "unreachable": [
+        "q9"
+      ],
+      "points": {
+        "mtv": "ok",
+        "dal": "ok",
+        "nyc": "ok",
+        "tor": "ok",
+        "mex": "ok",
+        "bsb": "ok",
+        "sao": "ok",
+        "rio": "ok",
+        "scs": "ok",
+        "bue": "ok",
+        "lon": "ok",
+        "mad": "ok",
+        "par": "ok",
+        "ams": "ok",
+        "ber": "ok",
+        "jnb": "ok",
+        "del": "ok",
+        "sin": "ok",
+        "sel": "ok",
+        "tyo": "ok",
+        "syd": "ok",
+        "cf": "ok",
+        "gg": "ok",
+        "q9": "down",
+        "ag": "ok",
+        "ali": "ok"
+      }
+    }
+  ],
+  "https": [
+    {
+      "host": "gerivan.me",
+      "status": "operational",
+      "reasons": [],
+      "code": 200,
+      "location": null,
+      "ms": 143,
+      "error": null,
+      "cert": {
+        "authorized": true,
+        "error": null,
+        "issuer": "Let's Encrypt",
+        "validTo": "2027-01-07T19:32:50.000Z",
+        "daysLeft": 40
+      }
+    },
+    {
+      "host": "dnapass.gerivan.me",
+      "status": "operational",
+      "reasons": [],
+      "code": 200,
+      "location": null,
+      "ms": 163,
+      "error": null,
+      "cert": {
+        "authorized": true,
+        "error": null,
+        "issuer": "Let's Encrypt",
+        "validTo": "2027-01-15T07:12:19.000Z",
+        "daysLeft": 47
+      }
+    },
+    {
+      "host": "entropy.gerivan.me",
+      "status": "operational",
+      "reasons": [],
+      "code": 200,
+      "location": null,
+      "ms": 219,
+      "error": null,
+      "cert": {
+        "authorized": true,
+        "error": null,
+        "issuer": "Let's Encrypt",
+        "validTo": "2027-01-14T12:02:49.000Z",
+        "daysLeft": 46
+      }
+    },
+    {
+      "host": "transformers.gerivan.me",
+      "status": "operational",
+      "reasons": [],
+      "code": 200,
+      "location": null,
+      "ms": 172,
+      "error": null,
+      "cert": {
+        "authorized": true,
+        "error": null,
+        "issuer": "Let's Encrypt",
+        "validTo": "2027-01-16T17:39:18.000Z",
+        "daysLeft": 49
+      }
+    },
+    {
+      "host": "xphrase.gerivan.me",
+      "status": "operational",
+      "reasons": [],
+      "code": 200,
+      "location": null,
+      "ms": 214,
+      "error": null,
+      "cert": {
+        "authorized": true,
+        "error": null,
+        "issuer": "Let's Encrypt",
+        "validTo": "2027-02-03T10:56:17.000Z",
+        "daysLeft": 66
+      }
+    }
+  ],
+  "security": {
+    "dnssec": "validated",
+    "caa": [
+      "0 iodef mailto:security@gerivan.me",
+      "0 issue letsencrypt.org"
+    ],
+    "spf": "v=spf1 include:_spf.protonmail.ch -all",
+    "dmarc": "v=DMARC1; p=reject; rua=mailto:25f8c5e6@mxtoolbox.dmarc-report.com; ruf=mailto:25f8c5e6@forensics.dmarc-report.com; fo=1"
+  },
+  "uptime": {
+    "h24": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+  },
+  "daily": [
+    {
+      "d": "2026-11-26",
+      "n": 30,
+      "op": 30,
+      "deg": 0,
+      "out": 0
+    },
+    {
+      "d": "2026-11-27",
+      "n": 99,
+      "op": 98,
+      "deg": 1,
+      "out": 0
+    },
+    {
+      "d": "2026-11-28",
+      "n": 62,
+      "op": 60,
+      "deg": 2,
+      "out": 0
+    }
+  ],
+  "recent": [
+    {
+      "t": 1795794317,
+      "s": "o"
+    },
+    {
+      "t": 1795795221,
+      "s": "o"
+    },
+    {
+      "t": 1795796123,
+      "s": "o"
+    },
+    {
+      "t": 1795797021,
+      "s": "o"
+    },
+    {
+      "t": 1795797916,
+      "s": "o"
+    },
+    {
+      "t": 1795798822,
+      "s": "o"
+    },
+    {
+      "t": 1795799715,
+      "s": "o"
+    },
+    {
+      "t": 1795800619,
+      "s": "o"
+    },
+    {
+      "t": 1795801517,
+      "s": "o"
+    },
+    {
+      "t": 1795802423,
+      "s": "o"
+    },
+    {
+      "t": 1795803321,
+      "s": "o"
+    },
+    {
+      "t": 1795804221,
+      "s": "o"
+    },
+    {
+      "t": 1795805116,
+      "s": "o"
+    },
+    {
+      "t": 1795806026,
+      "s": "o"
+    },
+    {
+      "t": 1795806917,
+      "s": "o"
+    },
+    {
+      "t": 1795807819,
+      "s": "o"
+    },
+    {
+      "t": 1795808715,
+      "s": "o"
+    },
+    {
+      "t": 1795809625,
+      "s": "o"
+    },
+    {
+      "t": 1795810519,
+      "s": "o"
+    },
+    {
+      "t": 1795811419,
+      "s": "o"
+    },
+    {
+      "t": 1795812317,
+      "s": "o"
+    },
+    {
+      "t": 1795813224,
+      "s": "o"
+    },
+    {
+      "t": 1795814116,
+      "s": "o"
+    },
+    {
+      "t": 1795815019,
+      "s": "o"
+    },
+    {
+      "t": 1795815919,
+      "s": "o"
+    },
+    {
+      "t": 1795816822,
+      "s": "o"
+    },
+    {
+      "t": 1795817716,
+      "s": "o"
+    },
+    {
+      "t": 1795818621,
+      "s": "o"
+    },
+    {
+      "t": 1795819518,
+      "s": "o"
+    },
+    {
+      "t": 1795820420,
+      "s": "o"
+    },
+    {
+      "t": 1795821317,
+      "s": "o"
+    },
+    {
+      "t": 1795822220,
+      "s": "o"
+    },
+    {
+      "t": 1795822684,
+      "s": "o"
+    },
+    {
+      "t": 1795823119,
+      "s": "o"
+    },
+    {
+      "t": 1795824024,
+      "s": "o"
+    },
+    {
+      "t": 1795824922,
+      "s": "o"
+    },
+    {
+      "t": 1795825820,
+      "s": "o"
+    },
+    {
+      "t": 1795826718,
+      "s": "o"
+    },
+    {
+      "t": 1795827626,
+      "s": "o"
+    },
+    {
+      "t": 1795828516,
+      "s": "o"
+    },
+    {
+      "t": 1795829420,
+      "s": "o"
+    },
+    {
+      "t": 1795830317,
+      "s": "o"
+    },
+    {
+      "t": 1795831222,
+      "s": "o"
+    },
+    {
+      "t": 1795832116,
+      "s": "o"
+    },
+    {
+      "t": 1795833018,
+      "s": "o"
+    },
+    {
+      "t": 1795833917,
+      "s": "o"
+    },
+    {
+      "t": 1795834821,
+      "s": "o"
+    },
+    {
+      "t": 1795835721,
+      "s": "o"
+    },
+    {
+      "t": 1795836621,
+      "s": "o"
+    },
+    {
+      "t": 1795837519,
+      "s": "o"
+    },
+    {
+      "t": 1795838420,
+      "s": "o"
+    },
+    {
+      "t": 1795839319,
+      "s": "o"
+    },
+    {
+      "t": 1795840220,
+      "s": "o"
+    },
+    {
+      "t": 1795841116,
+      "s": "o"
+    },
+    {
+      "t": 1795842021,
+      "s": "o"
+    },
+    {
+      "t": 1795842124,
+      "s": "o"
+    },
+    {
+      "t": 1795842922,
+      "s": "o"
+    },
+    {
+      "t": 1795843821,
+      "s": "o"
+    },
+    {
+      "t": 1795844717,
+      "s": "o"
+    },
+    {
+      "t": 1795845623,
+      "s": "o"
+    },
+    {
+      "t": 1795846515,
+      "s": "o"
+    },
+    {
+      "t": 1795847419,
+      "s": "o"
+    },
+    {
+      "t": 1795848317,
+      "s": "o"
+    },
+    {
+      "t": 1795849222,
+      "s": "o"
+    },
+    {
+      "t": 1795850118,
+      "s": "o"
+    },
+    {
+      "t": 1795851020,
+      "s": "o"
+    },
+    {
+      "t": 1795851918,
+      "s": "o"
+    },
+    {
+      "t": 1795852820,
+      "s": "d",
+      "f": [
+        "apex-ns",
+        "cname-entropy",
+        "cname-transformers"
+      ]
+    },
+    {
+      "t": 1795853717,
+      "s": "o"
+    },
+    {
+      "t": 1795854619,
+      "s": "o"
+    },
+    {
+      "t": 1795855516,
+      "s": "o"
+    },
+    {
+      "t": 1795856423,
+      "s": "o"
+    },
+    {
+      "t": 1795857317,
+      "s": "o"
+    },
+    {
+      "t": 1795858225,
+      "s": "o"
+    },
+    {
+      "t": 1795859118,
+      "s": "o"
+    },
+    {
+      "t": 1795860020,
+      "s": "o"
+    },
+    {
+      "t": 1795860916,
+      "s": "o"
+    },
+    {
+      "t": 1795861820,
+      "s": "o"
+    },
+    {
+      "t": 1795862715,
+      "s": "o"
+    },
+    {
+      "t": 1795863623,
+      "s": "o"
+    },
+    {
+      "t": 1795864520,
+      "s": "o"
+    },
+    {
+      "t": 1795865425,
+      "s": "o"
+    },
+    {
+      "t": 1795866320,
+      "s": "o"
+    },
+    {
+      "t": 1795867222,
+      "s": "o"
+    },
+    {
+      "t": 1795868117,
+      "s": "o"
+    },
+    {
+      "t": 1795869024,
+      "s": "o"
+    },
+    {
+      "t": 1795869916,
+      "s": "o"
+    },
+    {
+      "t": 1795870822,
+      "s": "o"
+    },
+    {
+      "t": 1795871720,
+      "s": "o"
+    },
+    {
+      "t": 1795872622,
+      "s": "o"
+    },
+    {
+      "t": 1795873516,
+      "s": "o"
+    },
+    {
+      "t": 1795874420,
+      "s": "d",
+      "f": [
+        "apex-ns"
+      ]
+    },
+    {
+      "t": 1795874854,
+      "s": "o"
+    },
+    {
+      "t": 1795875316,
+      "s": "o"
+    },
+    {
+      "t": 1795876221,
+      "s": "o"
+    },
+    {
+      "t": 1795877120,
+      "s": "o"
+    }
+  ],
+  "incident": null,
+  "incidents": []
+}
